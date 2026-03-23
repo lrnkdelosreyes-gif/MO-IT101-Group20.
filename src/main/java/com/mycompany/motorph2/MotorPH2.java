@@ -61,7 +61,7 @@ public class MotorPH2 {
         }
 
         try {
-            FileWriter writer = new FileWriter("MotorPH_Payroll.csv");
+            FileWriter writer = new FileWriter("MotorPH2.csv");
 
             // ===== CSV HEADER =====
             writer.append("EmpNumber,Name,Birthday,Cutoff,HoursWorked,Gross,SSS,PhilHealth,PagIBIG,Tax,TotalDeduction,NetSalary\n");
